@@ -15,3 +15,6 @@ def home_perso():
     # enviar para a aplicação de modo similar.
     return render_template('home_personalizada.html', usuario=usu)
 
+
+if __name__ == '__main__':
+    minha_app.run('0.0.0.0')
