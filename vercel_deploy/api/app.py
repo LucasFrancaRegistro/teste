@@ -17,4 +17,4 @@ def home_perso():
 
 
 if __name__ == '__main__':
-    app.run('3.0.0.0')
+    app.run('0.0.0.0', port=8080)
