@@ -16,5 +16,3 @@ def home_perso():
     return render_template('home_personalizada.html', usuario=usu)
 
 
-if __name__ == '__main__':
-    app.run('0.0.0.0', port=8080)
